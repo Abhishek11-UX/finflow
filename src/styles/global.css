@@ -1,0 +1,69 @@
+/* ============================================
+   FinFlow – Global Styles & Design Tokens
+   ============================================ */
+
+:root {
+  /* Colors */
+  --color-primary: #1DB954;
+  --color-primary-dim: rgba(29, 185, 84, 0.15);
+  --color-primary-glow: rgba(29, 185, 84, 0.3);
+  --color-bg: #0F0F14;
+  --color-surface: #1C1C27;
+  --color-surface-2: #242433;
+  --color-border: rgba(255,255,255,0.07);
+  --color-text-primary: #FFFFFF;
+  --color-text-secondary: #9B9BAD;
+  --color-danger: #FF5252;
+  --color-danger-dim: rgba(255, 82, 82, 0.12);
+  --color-warning: #FFA726;
+  --color-warning-dim: rgba(255, 167, 38, 0.12);
+
+  /* Typography */
+  --font-display: 'Syne', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+
+  /* Spacing */
+  --space-1: 8px;
+  --space-2: 16px;
+  --space-3: 24px;
+  --space-4: 32px;
+  --space-5: 48px;
+
+  /* Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 20px;
+  --radius-xl: 28px;
+  --radius-pill: 999px;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background: #000;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(ellipse at 50% 0%, rgba(29,185,84,0.08) 0%, transparent 60%), #0a0a0f;
+  min-height: 100vh;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 0; }
+
+/* Transitions */
+* { transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); }
+
+button { cursor: pointer; border: none; background: none; font-family: var(--font-body); }
+input { font-family: var(--font-body); }
