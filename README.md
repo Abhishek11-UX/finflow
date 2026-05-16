@@ -133,24 +133,7 @@ finflow/
 | CSS Custom Properties | — | Design tokens & theming |
 | Google Fonts | — | Syne + DM Sans |
 
-No component library dependencies — everything is hand-crafted CSS.
+
 
 ---
 
-## 💼 Interview Talking Points
-
-- "Started with user flows, then wireframed, then went high-fidelity with a full React prototype"
-- "Built a token-based design system in CSS custom properties for consistency at scale"
-- "Component library is reusable and stateless — easy to integrate into any real app"
-- "Navigation uses a simple state machine; easy to swap in React Router or Expo Router"
-- "Followed 8px grid, WCAG AA contrast, and mobile-first responsive thinking"
-
----
-
-## 📄 License
-
-MIT — free to use for portfolio, learning, or as a starter template.
-
----
-
-*Designed & built as a UI/UX portfolio project. Data is mocked — no backend required.*
